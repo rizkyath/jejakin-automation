@@ -1,0 +1,26 @@
+{
+  "name": "jejakin-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.ts",
+    "tags": "wdio run ./wdio.conf.ts --cucumberOpts.tagExpression",
+    "suite": "wdio run ./wdio.conf.ts --suite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.13.12",
+    "@wdio/cucumber-framework": "^8.13.9",
+    "@wdio/local-runner": "^8.13.12",
+    "@wdio/spec-reporter": "^8.12.2",
+    "chromedriver": "^114.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-wait-for": "^3.0.6"
+  }
+}

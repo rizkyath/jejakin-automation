@@ -10,8 +10,7 @@ rizkyath (Rizky Athallah)
 Clone Repository
 
 ```bash
-1. git clone https://github.com/kitabisa/kuyang.git
-2. Navigate to kuyang (cd kuyang)
+1. git clone ...
 ```
 
 Install the dependencies:

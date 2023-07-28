@@ -10,7 +10,8 @@ rizkyath (Rizky Athallah)
 Clone Repository
 
 ```bash
-1. git clone ...
+1. git clone https://github.com/rizkyath/jejakin-automation.git
+2. Navigate to project directory (cd jejakin-automation)
 ```
 
 Install the dependencies:
